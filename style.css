@@ -1,0 +1,12 @@
+body {
+    background-color: #111111;
+}
+
+.location {
+    border-radius: 5px;
+    padding: 2vh 1vw;
+    margin: 1.5vh 0vw;
+    background-color: #0e2388;
+    display: flex;
+    justify-content: space-between;
+}

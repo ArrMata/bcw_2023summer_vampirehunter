@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css">
+    <title>Vampire Swarm</title>
+</head>
+
+<body>
+    <header class="container-fluid text-center text-white">
+        <div class="col-12">
+            <h1>Vampire Hunter</h1>
+        </div>
+        <div class="col-12 d-flex justify-content-center align-items-center">
+            <button onclick="adjustHunterCount('-')" class="btn btn-primary">-</button>
+            <p class="fs-3 my-0 mx-3">Vampire Hunter Count: <span id="hunterCount">1</span></p>
+            <button onclick="adjustHunterCount('+')" class="btn btn-primary">+</button>
+        </div>
+    </header>
+
+    <main class="container-fluid text-white mt-5">
+        <section class="row">
+            <!-- #region Row One Locations -->
+            <div class="col-4">
+                <div id="performingArts" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="circus" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="amusementPark" class="location">
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region Row Two Locations -->
+            <div class="col-4">
+                <div id="stadium" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="hotel" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="euroPostOffice" class="location">
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region Row Three Locations -->
+            <div class="col-4">
+                <div id="hospital" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="factory" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="office" class="location">
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region Row Four Locations -->
+            <div class="col-4">
+                <div id="japanPostOffice" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="castle" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="departmentStore" class="location">
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region Row Five Locations -->
+            <div class="col-4">
+                <div id="mountFuji" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="bank" class="location">
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="convenienceStore" class="location">
+                </div>
+            </div>
+            <!-- #endregion -->
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
